@@ -1,5 +1,8 @@
 name: Create Release Zip
 
+permissions:
+  contents: write
+
 on:
   release:
     types: [published]
